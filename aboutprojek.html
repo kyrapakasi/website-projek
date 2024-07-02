@@ -1,0 +1,385 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASMI Klabat</title>
+
+    <!-- Font Awesome CDN link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Custom CSS file link -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        /* CSS for styling dropdown */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #fff;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {background-color: #f1f1f1;}
+
+        .dropdown:hover .dropdown-content {display: block;}
+
+        .dropdown:hover .dropbtn {background-color: #OOOOOO;}
+
+        /* Custom styles for navbar items */
+        .navbar a {
+            font-size: 1.5em !important; /* Increase the font size */
+            margin-left: 20px; /* Move the text to the right */
+        }
+
+        .navbar .dropdown-content a {
+            font-size: 1em;
+            margin-left: 0; /* Ensure dropdown items are not shifted */
+        }
+
+        /* Increase the font size for all header text */
+        .header a {
+            font-size: 1.5em !important;
+        }
+        .home{
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background:url(../m.jpeg) no-repeat;
+            background-size: cover;
+            background-position: center;
+            text-align: center; /* Center the text */
+        }
+        .home .content {
+            text-align: center;
+        }
+        .home .image img {
+            margin-top: 20px; /* Add space between text and image */
+        }
+		
+    </style>
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo">
+        <img src="images/1.png" alt="">
+    </a>
+
+    <nav class="navbar">
+        <a href="#home">home</a>
+		<a href="#gallery">Gallery</a>
+        <div class="dropdown">
+            <a href="#about" class="dropbtn">about</a>
+            <div class="dropdown-content">
+                <a href="#bobot">Bobot Mata Kuliah</a>
+                <a href="#visi-misi">Visi Misi</a>
+                <a href="#tujuan">Tujuan</a>
+            </div>
+        </div>
+        <a href="#contact">contact</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+    </div>
+
+    <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </div>
+
+</header>
+
+
+<section class="home" id="home">
+    <div class="image">
+        <img src="images/m.jpeg" alt="">
+    </div>
+
+    <div class="content">
+	    <br />
+		<br />
+		<br />
+		<br />
+        <h5 class="heading"> <font color="black">AKADEMI SEKERTARIS</font> <span>Dan Management Indonesia</span><br /><font size="5">UNIVERSITAS KLABAT</font></h5> <br />
+		<h1><center>Gallery profil</center></h1>
+    </div>
+
+    
+
+</section>
+<section class="gallery" id="gallery"><center>
+<div class="container">
+        <div class="text">
+            <h1>Direktris ASMI Klabat</h1>
+            <p><font face="Arial" size="4" color="White">Lenda Mambo, MS.HRM</p>
+        </div>
+        <img src="Lenda.jpg" alt="Foto Direktris">
+    </div>
+    <center><font face="Times New Roman" color="#5e3a73" size="6"><b>Dosen ASMIK Klabat</b></font></center>
+    <br />
+    <br />
+
+    <div class="gallery">
+        <figure>
+            <img src="Firsya.jpg" alt="Foto Firsya">
+            <figcaption><font face="Arial" color="Black" size="3">Firsya Rorong, MM</font></figcaption>
+        </figure>
+        <figure>
+            <img src="Paula.jpg" alt="Foto Paula">
+            <figcaption><font face="Arial" color="Black" size="3">Paula Sumarandak, SPd</font></figcaption>
+        </figure>
+        <figure>
+            <img src="Rouna.jpg" alt="Foto Rouna">
+            <figcaption><font face="Arial" color="Black" size="3">Rouna Paoki, SPd, MM</font></figcaption>
+        </figure>
+        <figure>
+            <img src="Rooswita.jpg" alt="Foto Rooswita">
+            <figcaption><font face="Arial" color="Black" size="3">Rooswita M. A. Loing, SPd, MM</font></figcaption>
+        </figure>
+        <figure>
+            <img src="Yeane.jpg" alt="Foto Yeane">
+            <figcaption><font face="Arial" color="Black" size="3">Dr. Yeane Kojongian, MM</figcaption>
+        </figure>
+    </div>
+</div>
+
+<div class="gallery">
+  <div class="gallery-item">
+    <img src="asmi6.jpg" alt="Image 1">
+  </div>
+  <div class="gallery-item">
+    <img src="asmi5.jpg" alt="Image 2">
+  </div>
+  <div class="gallery-item">
+    <img src="asmi1.jpg" alt="Image 3">
+  </div>
+  <div class="gallery-item">
+    <img src="asmi.jpg" alt="Image 1">
+  </div>
+  <div class="gallery-item">
+    <img src="asmi3.jpg" alt="Image 2">
+  </div>
+  <div class="gallery-item">
+    <img src="asmi2.jpg" alt="Image 3">
+  </div>
+  <div class="gallery-item">
+    <img src="asmi7.jpg" alt="Image 1">
+  </div>
+  <div class="gallery-item">
+    <img src="asmi8.jpg" alt="Image 2">
+  </div>
+  <div class="gallery-item">
+    <img src="asmi4.jpg" alt="Image 3">
+  </div>
+<div class="modal">
+  <span class="modal-close">&times;</span>
+  <img class="modal-content" id="modal-image">
+  <a class="modal-prev" onclick="changeImage(-1)">&#10094;</a>
+  <a class="modal-next" onclick="changeImage(1)">&#10095;</a>
+</div></center>
+</section>
+
+<section class="about" id="about">
+	<br />
+	<br />
+    <h1 class="heading"> <span>about</span> asmik </h1>
+
+    <div class="row">
+
+        
+
+        <div class="content">
+            <h3>ASMI Klabat</h3>
+            <p>Akademi Sekretaris Manajemen Indonesia (ASMI) Klabat berdiri sejak 1969, sudah menghasilkan alumni-alumni terbaik.</p>
+            <p>Akademihome Sekretari Manajemen Indonesia (ASMI) Klabat mempunyai program studi sekretari D-III yang dapat diselesaikan dalam waktu 3 tahun dengan total 117 SKS.</p>
+            <p>Untuk praktek kerja sebelum ditamatkan, mahasiswa ASMI Klabat diberi kesempatan untuk magang (praktek kerja).
+                Saat magang seorang sekretaris akan bekerja di sebuah perusahaan industry dengan bidang yang paling mereka kuasai dan nantinya mereka akan diarahkan kesana. Kegiatan magang tersebut akan diganti oleh pembuatan skripsi dimana mereka sudah tidak lagi membuat skripsi melainkan diganti dengan kegiatan magang.. ASMI Klabat mempersiapkan fasilitas-fasilitas untuk mahasiswa sebagai berikut; laboratorium bahasa, laboratorium computer, perpustakaan, asrama, kafetaria dan tempat olahraga.
+            </p>
+            <p>Yang harus dipersiapkan seorang calon mahasiswa magang yaitu kemampuan keyboarding (mengetik dengan cepat menggunakan 10 jari) seperti harus bisa menguasai Microsoft Office Word, Excel, Power Point bahkan meng-handle database, korespondensi (surat – menyurat) dalam hal ini mereka akan menyampaikan maksud tertentu melalui surat dari satu pihak ke pihak lain, filling yang akan mengisi file file yang ada, kemampuan komunikasi (public speaking), kemampuan berpikir logis, kemampuan untuk menulis, kemampuan berbahasa Indonesia dan Bahasa Asing, kemampuan tata kearsipan, kemampuan menyusun laporan, dan terakhir kemampuan untuk mengatur waktu (time management). Skill inilah yang akan dilatih di dunia perkuliahan selama 3 tahun di Universitas Klabat.</p>
+            <p>Untuk Mendukung kelancaran perkuliahan ASMI Klabat mempersiapkan fasilitas-fasilitas untuk mahasiswa sebagai berikut: asrama, kafetaria, laboratorium computer, perpustakaan, tempat olahraga, paduan suara.</p>
+            <p>Profesi utama yang bisa ditekuni jurusan ini tidak bukan ialah Sekretaris. Profesi Sekretaris sanggat dibutuhkan di berbagai perusahaan dan industry, baik itu skala lokal, nasional, multi nasional hingga asing. Selain menjadi sekretaris, peluang lain yakni menjadi resepsionis. Resepsionis memiliki beberapa tugas utamma seperti menerima sekaligus melayani tamu, menerima dan menghubungkan telepon, menerima dan meneruskan paket serta mengatur jadwal pertemuan klien dengan pihak kantor.
+
+                Kemudian bila tidak ingin bekerja di perusahaan, lulusan jurusan ASMI Klabat juga bisa bekerja sebagai tenaga pengajar. Seperti menjadi guru di sekolah kejuruan administrasi atau menjadi seorang dosen.
+                </p>
+                <p>“Mereka kuliah sudah tiga tahun, di tahun terakhir mahasiswa diberikan magang di sejumlah perusahaan ternama. Hasilnya, setelah mahasiswa lulus, langsung bisa direkrut oleh perusahaan,” ujar Carmen. Lanjut Mem Carmen, dari sebagian banyak perusahaan yang bekerjasama, ada empat perusahaan ternama yang sudah mempekerjakan alumnus ASMI Klabat. Perusahaan dan alumnus itu yakni, Stance Triwandono sebagai Vice President dan Chief Coordinating di PT Freeport Indonesia, Patricia Bawata sebagai Presiden Direktur MNC Life, Gracia Karamoy sebagai Pemimpin BNI Wanea dan Trisani Lado sebagai Staff Surety Bond di PT Asuransi Parolamas Jayapura.</p>
+            
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<section class="menu" id="bobot">
+
+    <h1 class="heading"> Bobot <span> Mata Kuliah </span> </h1>
+        
+       
+
+    <br> Setiap peralihan tahun kuliah diadakan program perkuliahan
+    semester padat. Dalam prinsip program perkuliahan ini
+    bertujuan membantu mahasiswa yang ingin:
+        <br> A. Memperbaiki nilai dari matakuliah yang telah lulus.
+        <br> B. Mengambil matakuliah yang tidak sempat diikutinya atau
+gagal pada semester sebelumnya.
+        <br> Mahasiswa mempunyai normal IP dapat mengambil sampai 6
+SKS. Bagi mahasiswa yang mempunyai nilai IP Akumlasi 3.25
+keatas dapat mengambil maksimum 7 SKS. Apabila mahasiswa
+berencana tamat pada semester padat dan IP tidak mencapai
+3.25 dapat mengajukan permohonan untuk mengambil
+maksimum 7 SKS
+
+    <table border="1">
+        <tr>
+            <td>Nilai Angka</td>
+            <td>Huruf</td>
+            <td>Nilai Bobot</td>
+        </tr>
+    
+        <tr>
+            <td>91 - 100 </td>
+            <td>A</td>
+            <td>4.0</td>
+        </tr>
+        <tr>
+            <td>85 - 90</td>
+            <td>A-</td>
+            <td>3.67</td>
+        </tr>
+        <tr>
+            <td>82 - 84</td>
+            <td>B+</td>
+            <td>3.33</td>
+        </tr>
+        <tr>
+            <td>78 - 81</td>
+            <td>B</td>
+            <td>3.0</td>
+        </tr>
+        <tr>
+            <td>75 - 77</td>
+            <td>B-</td>
+            <td>2.67</td>
+        </tr>
+        <tr>
+            <td>71 - 74</td>
+            <td>C+</td>
+            <td>2.33</td>
+        </tr>
+        <tr>
+            <td>66 - 70</td>
+            <td>C</td>
+            <td>2.0</td>
+        </tr>
+        <tr>
+            <td>61 - 65</td>
+            <td>C-</td>
+            <td>1.67</td>
+        </tr>
+        <tr>
+            <td>56 - 60</td>
+            <td>D</td>
+            <td>1.0</td>
+        </tr>
+        <tr>
+            <td>0 - 55</td>
+            <td>E</td>
+            <td>0</td>
+        </tr>
+    </table>
+
+</section>
+
+
+
+<section class="menu" id="visi-misi">
+
+    <h1 class="heading"> Visi <span> Misi </span> </h1>
+        
+
+    <br> 
+        <h3>Visi</h3> 
+        Mewujudkan Pendidikan Tinggi Vokasi dalam bidang kesekretariatan, Manajemen, Akuntansi yang berdaya saing tinggi dan unggul dalam bidang IPTEK yang dilandasi oleh nilai-nilai moral dan etika.
+<br> <h3>Misi</h3> 
+1. Menyelenggarakan pendidikan yang berbasis kompetensi dengan kualitas tinggi untuk menghasilkan lulusan yang memiliki kemampuan akademik dibidang kesekretariatan yang profesional dan mampu bersaing dalam pasar kerja
+    <br>2. Melaksanakan penelitian terapan dibidang ilmu kesekretariatan, manajemen, akuntansi yang unggul dalam perkembangan IPTEK.
+    <br>3. Melaksanakan pengabdian kepada masyarakat dibidang kesekretariatan, manajemen, akuntansi serta berkontribusi dalam perkembangan IPTEK.
+    <br>4. Meningkatkan kualitas pengelolaan kelembagaan yang berbasis Good Governance untuk memperoleh pengakuan nasional dan internasional.
+
+</section>
+
+
+<section class="menu" id="tujuan">
+
+    <h1 class="heading"> <span> Tujuan </span> </h1>
+        
+       
+
+    <br> 
+        <h3>Tujuan</h3> 
+        <br>1. Menghasilkan lulusan yang memiliki kualifikasi pengetahuan, keterampilan dan sikap untuk mengisi kebutuhan dunia usaha dan industri
+        <br>2. Menghasilkan lulusan yang kompeten dalam bidang manajemen, administrasi, keuangan dan kesekretariatan serta mampu menerapkan ilmunya dalam dunia kerja
+        <br>3. Meningkatkan produktivitas dosen dalam penelitian terapan dan publikasi ilmiah di tingkat nasional maupun internasional
+        <br>4. Meningkatkan partisipasi dosen dan mahasiswa dalam kegiatan pengabdian kepada masyarakat
+        <br>5. Meningkatkan kualitas layanan akademik dan non-akademik yang berbasis pada prinsip-prinsip Good Governance
+        <br>6. Meningkatkan kerjasama dengan berbagai pihak untuk memperkuat jejaring dan mendukung pencapaian visi misi institusi
+        <br>7. Mewujudkan tata kelola lembaga yang transparan, akuntabel, responsif, dan efisien dalam rangka meningkatkan kualitas layanan kepada stakeholders
+        <br>8. Mewujudkan lingkungan kampus yang kondusif untuk mendukung proses belajar mengajar yang efektif dan efisien
+        <br>9. Mengembangkan sistem informasi manajemen yang terintegrasi untuk mendukung pengelolaan institusi yang efektif dan efisien
+        <br>10. Mewujudkan lulusan yang memiliki integritas moral, etika, dan profesionalisme dalam bekerja
+        <br>11. Mengembangkan program-program pendidikan yang inovatif dan relevan dengan kebutuhan pasar kerja dan perkembangan IPTEK
+        <br>12. Mewujudkan lembaga pendidikan yang memiliki daya saing tinggi di tingkat nasional dan internasional.
+
+</section>
+
+
+
+<section class="contact" id="contact">
+
+    <h1 class="heading"> <span>contact</span> us </h1>
+
+    <div class="row">
+
+        
+        <h1><center><a href="https://www.facebook.com/share/iWoT5nLeacAbXJ4x/?mibextid=qi2Omg" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i> asmik</a>      
+            <a href="https://www.instagram.com/asmiklabat?igsh=MXQ1ZWI5cmgyMDdv" target="_blank" class="instagram"><i class="fab fa-instagram"></i> asmiklabat</a>
+            </center>
+        </h1><br />
+		<br />
+		
+		<iframe class="map" src="https://maps.google.com/maps?q=universitas%20klabat&t=&z=13&ie=UTF8&iwloc=&output=embed" allowfullscreen="" loading="lazy"></iframe>
+
+
+    </div>
+
+</section>
+
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
